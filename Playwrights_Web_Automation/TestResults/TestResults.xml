@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="bbceeb2c-cc63-4950-a4d6-76d0e91bf2d2" name="uzair@UZAIR 2025-02-23 14:48:55" runUser="UZAIR\uzair" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-02-23T14:48:55.5872393+00:00" queuing="2025-02-23T14:48:55.5872397+00:00" start="2025-02-23T14:48:50.8433380+00:00" finish="2025-02-23T14:48:58.9911993+00:00" />
+  <TestSettings name="default" id="64f9adc0-fdaa-476f-9322-56d3655f996f">
+    <Deployment runDeploymentRoot="uzair_UZAIR_2025-02-23_14_48_55" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="91cb66d6-5a05-4843-a7a8-55036db72905" testId="9650eab1-ec0d-8287-1499-bbb8664ec06e" testName="VisitAdminPage" computerName="UZAIR" duration="00:00:03.3497680" startTime="2025-02-23T14:48:55.5502523+00:00" endTime="2025-02-23T14:48:58.9000192+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91cb66d6-5a05-4843-a7a8-55036db72905">
+      <Output>
+        <StdOut>Starting Setup&#xD;
+Setup completed successfully.&#xD;
+Starting TearDown&#xD;
+TearDown completed successfully.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ab16887-e037-4681-9079-9085eaa8cc70" testId="dc196fe9-9923-d822-cb9f-5d74e0c1f3b4" testName="VisitAdminPage" computerName="UZAIR" duration="00:00:04.3092050" startTime="2025-02-23T14:48:51.2384649+00:00" endTime="2025-02-23T14:48:55.5475782+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ab16887-e037-4681-9079-9085eaa8cc70">
+      <Output>
+        <StdOut>Starting Setup&#xD;
+Setup completed successfully.&#xD;
+Starting TearDown&#xD;
+TearDown completed successfully.</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="VisitAdminPage" storage="d:\playwrights-web-automation\playwrights_web_automation\bin\debug\net8.0\playwrights_web_automation.dll" id="dc196fe9-9923-d822-cb9f-5d74e0c1f3b4">
+      <Execution id="2ab16887-e037-4681-9079-9085eaa8cc70" />
+      <TestMethod codeBase="D:\playwrights-web-automation\Playwrights_Web_Automation\bin\Debug\net8.0\Playwrights_Web_Automation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Playwrights_Web_Automation.Tests.AdminPageTests" name="VisitAdminPage" />
+    </UnitTest>
+    <UnitTest name="VisitAdminPage" storage="d:\playwrights-web-automation\playwrights_web_automation\bin\debug\net8.0\playwrights_web_automation.dll" id="9650eab1-ec0d-8287-1499-bbb8664ec06e">
+      <Execution id="91cb66d6-5a05-4843-a7a8-55036db72905" />
+      <TestMethod codeBase="D:\playwrights-web-automation\Playwrights_Web_Automation\bin\Debug\net8.0\Playwrights_Web_Automation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Playwrights_Web_Automation.Tests.PIMPageTests" name="VisitAdminPage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="9650eab1-ec0d-8287-1499-bbb8664ec06e" executionId="91cb66d6-5a05-4843-a7a8-55036db72905" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc196fe9-9923-d822-cb9f-5d74e0c1f3b4" executionId="2ab16887-e037-4681-9079-9085eaa8cc70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in D:\playwrights-web-automation\Playwrights_Web_Automation\bin\Debug\net8.0\Playwrights_Web_Automation.dll&#xD;
+   NUnit3TestExecutor discovered 2 of 2 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="UZAIR" outcome="Warning" timestamp="2025-02-23T14:48:55.5584329+00:00">
+        <Text>Starting Setup&#xD;
+Setup completed successfully.&#xD;
+Starting TearDown&#xD;
+TearDown completed successfully.&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="UZAIR" outcome="Warning" timestamp="2025-02-23T14:48:58.9012285+00:00">
+        <Text>Starting Setup&#xD;
+Setup completed successfully.&#xD;
+Starting TearDown&#xD;
+TearDown completed successfully.&#xD;
+</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

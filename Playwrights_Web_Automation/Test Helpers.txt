@@ -1,0 +1,8 @@
+﻿for run test in cmd with headed mode: HEADED=1 dotnet test
+for headless mode dotnet test
+for run in debugmode with inspector record and browser PWDEBUG=1 dotnet test
+
+
+
+
+

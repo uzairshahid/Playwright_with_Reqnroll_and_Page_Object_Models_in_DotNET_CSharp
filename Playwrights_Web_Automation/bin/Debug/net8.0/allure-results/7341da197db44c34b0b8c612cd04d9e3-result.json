@@ -1,0 +1,95 @@
+{
+  "uuid": "0aa61e2c-5ee1-4625-a834-ddec1de44e25-tr-0-1001",
+  "historyId": "Playwrights_Web_Automation.Tests.AdminPageTests.VisitAdminPage",
+  "fullName": "Playwrights_Web_Automation.Tests.AdminPageTests.VisitAdminPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "UZAIR"
+    },
+    {
+      "name": "package",
+      "value": "Playwrights_Web_Automation.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VisitAdminPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AdminPageTests"
+    }
+  ],
+  "links": [],
+  "name": "VisitAdminPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VisitAdminPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VisitAdminPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Setting up browser and logging in",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1740322099182,
+          "stop": 1740322099204
+        },
+        {
+          "name": "Closing browser",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1740322102408,
+          "stop": 1740322102410
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "aea456dd8ef8489fa21d26a6519934e6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1740322098369,
+      "stop": 1740322102470
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1740322098368,
+  "stop": 1740322102471
+}

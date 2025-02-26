@@ -1,0 +1,95 @@
+{
+  "uuid": "020bfb33-184e-4b50-8bb0-9ac446e49832-tr-0-1003",
+  "historyId": "Playwrights_Web_Automation.Tests.PIMPageTests.VisitAdminPage",
+  "fullName": "Playwrights_Web_Automation.Tests.PIMPageTests.VisitAdminPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "UZAIR"
+    },
+    {
+      "name": "package",
+      "value": "Playwrights_Web_Automation.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VisitAdminPage"
+    },
+    {
+      "name": "testClass",
+      "value": "PIMPageTests"
+    }
+  ],
+  "links": [],
+  "name": "VisitAdminPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VisitAdminPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VisitAdminPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Setting up browser and logging in",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1740322102619,
+          "stop": 1740322102619
+        },
+        {
+          "name": "Closing browser",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1740322105852,
+          "stop": 1740322105852
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ac79325871ae448bbf6d45a95b73953d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1740322102503,
+      "stop": 1740322105889
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1740322102503,
+  "stop": 1740322105889
+}

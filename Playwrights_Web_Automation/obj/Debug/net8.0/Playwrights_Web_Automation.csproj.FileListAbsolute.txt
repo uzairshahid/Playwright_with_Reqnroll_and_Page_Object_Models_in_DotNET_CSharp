@@ -439,3 +439,4 @@ D:\playwrights-web-automation\Playwrights_Web_Automation\obj\Debug\net8.0\refint
 D:\playwrights-web-automation\Playwrights_Web_Automation\obj\Debug\net8.0\Playwrights_Web_Automation.pdb
 D:\playwrights-web-automation\Playwrights_Web_Automation\obj\Debug\net8.0\Playwrights_Web_Automation.genruntimeconfig.cache
 D:\playwrights-web-automation\Playwrights_Web_Automation\obj\Debug\net8.0\ref\Playwrights_Web_Automation.dll
+D:\playwrights-web-automation\Playwrights_Web_Automation\obj\Debug\net8.0\Playwrights_Web_Automation.sourcelink.json

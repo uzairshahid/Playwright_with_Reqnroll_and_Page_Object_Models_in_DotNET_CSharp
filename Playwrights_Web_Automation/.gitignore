@@ -1,0 +1,43 @@
+# Ignore build and output directories
+/bin/
+/obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+
+# Ignore test results
+/TestResults/
+
+# Ignore backup files
+*.Backup.tmj
+
+# Ignore local configuration files
+config.json
+remroll.json
+
+# Ignore IDE specific files
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Ignore NuGet packages and restore files
+packages/
+*.nupkg
+nuget.exe
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore logs and diagnostics
+*.log
+*.tlog
+*.patch
+
+# Ignore Playwright specific files
+/playwright-report/
+/test-results/
+/playwright/.cache/

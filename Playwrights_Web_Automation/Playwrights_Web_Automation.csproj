@@ -7,10 +7,23 @@
 
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
-	  <RunSettingsFilePath>$(MSBuildProjectDirectory)\playwrightconfig.runsettings</RunSettingsFilePath>
+	<!--  <RunSettingsFilePath>$(MSBuildProjectDirectory)\playwrightconfig.runsettings</RunSettingsFilePath> -->
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Report\**" />
+    <EmbeddedResource Remove="Report\**" />
+    <None Remove="Report\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\uzair\.nuget\packages\allure.commons\3.5.0.73\contentFiles\any\netstandard2.0\allureConfig.Template.json" />
+    <Content Remove="C:\Users\uzair\.nuget\packages\allure.reqnroll\2.12.1\contentFiles\any\netstandard2.0\allureConfig.Template.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Allure.Commons" Version="3.5.0.73" />
+    <PackageReference Include="Allure.Reqnroll" Version="2.12.1" />
     <PackageReference Include="coverlet.collector" Version="6.0.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -22,7 +35,11 @@
 	
 	<!--<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />-->
     <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit.Allure" Version="1.2.1.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="Reqnroll" Version="2.3.0" />
+    <PackageReference Include="Reqnroll.NUnit" Version="2.3.0" />
+    <PackageReference Include="Reqnroll.Tools.MsBuild.Generation" Version="2.3.0" />
 
   </ItemGroup>
 
@@ -31,7 +48,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Report\" />
+    <Folder Include="Feature\" />
     <Folder Include="TestResults\" />
   </ItemGroup>
 

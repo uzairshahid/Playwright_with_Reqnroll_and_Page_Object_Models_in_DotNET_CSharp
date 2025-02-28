@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\playwrights-web-automation\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj": {}
+    "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj": {}
   },
   "projects": {
-    "D:\\playwrights-web-automation\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj": {
+    "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\playwrights-web-automation\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj",
+        "projectUniqueName": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj",
         "projectName": "Playwrights_Web_Automation",
-        "projectPath": "D:\\playwrights-web-automation\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj",
+        "projectPath": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj",
         "packagesPath": "C:\\Users\\uzair\\.nuget\\packages\\",
-        "outputPath": "D:\\playwrights-web-automation\\Playwrights_Web_Automation\\obj\\",
+        "outputPath": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\uzair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,12 +43,21 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Allure.Commons": {
+              "target": "Package",
+              "version": "[3.5.0.73, )"
+            },
+            "Allure.Reqnroll": {
+              "target": "Package",
+              "version": "[2.12.1, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -65,9 +78,25 @@
               "target": "Package",
               "version": "[3.13.3, )"
             },
+            "NUnit.Allure": {
+              "target": "Package",
+              "version": "[1.2.1.1, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.5.0, )"
+            },
+            "Reqnroll": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Reqnroll.NUnit": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Reqnroll.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -92,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

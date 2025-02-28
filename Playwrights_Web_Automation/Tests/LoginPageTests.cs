@@ -15,30 +15,19 @@
 //        LoginPage? loginPage;
 //        Common? commons;
 
-//        [Test,Order(1)]
+//        [Test, Order(1)]
 //        [TestCaseSource(nameof(Login))]
 //        public async Task LoginAdmin(LoginPageModels login)
 //        {
 //            loginPage = new LoginPage(Page);
 //            commons = new Common(Page);
 //            await loginPage.Login(login.UserName, login.Password);
-//            await commons.waitForElementToVisibleByElementText("Dashboard");
+//            await commons.WaitForElementToVisibleByElementText("Dashboard");
 //            var isExists = await loginPage.IsDashboardPageExists();
 //            Assert.IsTrue(isExists);
-//            // await dashboardPage.ClickButton("Leave");
-//            // await dashboardPage.ClickButton("Time");
-//            // await dashboardPage.ClickButton("Recruitment");
-//            // await dashboardPage.ClickButton("My Info");
-//            // await dashboardPage.ClickButton("Performance");
-//            // await dashboardPage.ClickButton("Dashboard");
-//            // await dashboardPage.ClickButton("Directory");
-//            // await dashboardPage.ClickButton("Claim");
-//            //await dashboardPage.ClickButton("Buzz");
-
-
 //        }
 
-//        public static new IEnumerable<LoginPageModels> Login()
+//        public static IEnumerable<LoginPageModels> Login()
 //        {
 //            yield return new LoginPageModels()
 //            {
@@ -47,6 +36,6 @@
 //            };
 //        }
 
-     
+
 //    }
 //}

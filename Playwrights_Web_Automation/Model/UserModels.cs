@@ -8,11 +8,11 @@ namespace Playwrights_Web_Automation.Model
 {
     public class UserModels
     {
-        public string UserRole { get; set; }
-        public string EmployeNameInitials { get; set; }
-        public string EmployeeStatus { get; set; }
-        public string EmployeeUserName { get; set; }
-        public string EmployeePassword { get; set; }
+        public required string UserRole { get; set; }
+        public required string EmployeNameInitials { get; set; }
+        public required string EmployeeStatus { get; set; }
+        public required string EmployeeUserName { get; set; }
+        public required string EmployeePassword { get; set; }
 
        
 

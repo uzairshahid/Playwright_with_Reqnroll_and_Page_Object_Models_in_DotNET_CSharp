@@ -1,4 +1,0 @@
-Starting Setup
-Setup completed successfully.
-Starting TearDown
-TearDown completed successfully.

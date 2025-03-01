@@ -4096,11 +4096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj",
+      "projectUniqueName": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj",
       "projectName": "Playwrights_Web_Automation",
-      "projectPath": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj",
+      "projectPath": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj",
       "packagesPath": "C:\\Users\\uzair\\.nuget\\packages\\",
-      "outputPath": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\obj\\",
+      "outputPath": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

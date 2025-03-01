@@ -14,7 +14,6 @@
 *.Backup.tmj
 
 # Ignore local configuration files
-config.json
 remroll.json
 
 # Ignore IDE specific files

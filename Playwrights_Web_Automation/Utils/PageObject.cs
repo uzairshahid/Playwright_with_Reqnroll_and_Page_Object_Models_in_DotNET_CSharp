@@ -15,6 +15,7 @@ namespace Playwrights_Web_Automation.Utils
             _page = page;
         }
 
+
         public async Task ClickElement(string elementLocator)
         {
             await _page.Locator(elementLocator).ClickAsync();

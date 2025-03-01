@@ -49,7 +49,6 @@
 
   <ItemGroup>
     <Folder Include="Feature\" />
-    <Folder Include="TestResults\" />
   </ItemGroup>
 
 </Project>

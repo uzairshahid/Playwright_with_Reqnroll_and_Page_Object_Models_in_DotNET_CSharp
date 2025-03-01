@@ -10,7 +10,6 @@ namespace Playwrights_Web_Automation.Commons
 {
     public class Common
     {
-        //private IPage _page;
 
         private readonly IPage _page;
         public Common(IPage page)
@@ -24,8 +23,6 @@ namespace Playwrights_Web_Automation.Commons
             return _page.GetByRole(role, new() { Name = name, Exact = exact });
         }
 
-
-
         public async Task WaitForElementToVisibleByElementText(string elementText)
         {
             await _page.WaitForSelectorAsync($"text={elementText}", new() { State = WaitForSelectorState.Visible });
@@ -36,7 +33,6 @@ namespace Playwrights_Web_Automation.Commons
             await _page.WaitForSelectorAsync("role=heading[name='Dashboard']", new() { State = WaitForSelectorState.Visible });
         
         }
-       
 
         public async Task IsButtonVisible(String ButtonName)
         {

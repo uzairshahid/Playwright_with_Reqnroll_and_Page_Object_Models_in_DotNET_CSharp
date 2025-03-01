@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -105,6 +105,10 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": ".gitignore",
@@ -112,7 +116,7 @@
               "RelativeDocumentMoniker": ".gitignore",
               "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\.gitignore",
               "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-03-01T01:22:02.444Z",
               "EditorCaption": ""
@@ -163,8 +167,7 @@
               "RelativeToolTip": "Definitions\\LoginPageTestsStepDefinitions.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAewB8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T20:06:06.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T20:06:06.909Z"
             },
             {
               "$type": "Document",
@@ -176,8 +179,7 @@
               "RelativeToolTip": "reqnroll.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-26T20:09:18.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T20:09:18.143Z"
             },
             {
               "$type": "Document",
@@ -190,10 +192,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T17:15:49.979Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",

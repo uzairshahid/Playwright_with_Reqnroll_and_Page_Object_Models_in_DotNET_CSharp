@@ -13,12 +13,10 @@ namespace Playwrights_Web_Automation.Definitions
     public sealed class LoginPageTestsStepDefinitions(ScenarioContext scenarioContext)
     {
         private IPage _page = BrowserHook.BrowserHooks.Page!;
-        private string? _username;
-        private string? _password;
+     
         private Config? _config = BrowserHooks.Config!;
         private LoginPage? _loginPage;
-        private AdminPage? _adminPage;
-        private Common? commons;
+       
 
         public ScenarioContext ScenarioContext { get; } = scenarioContext;
 

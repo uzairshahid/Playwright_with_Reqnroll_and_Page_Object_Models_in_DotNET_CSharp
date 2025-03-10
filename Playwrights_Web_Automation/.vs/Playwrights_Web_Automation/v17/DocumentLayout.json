@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\definitions\\pimpagetestsstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:definitions\\pimpagetestsstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\reqnroll.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:reqnroll.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\feature\\addemployeetests.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:feature\\addemployeetests.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\definitions\\loginpagetestsstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:definitions\\loginpagetestsstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\utils\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:utils\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\feature\\loginpagetests.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:feature\\loginpagetests.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\pages\\pimpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:pages\\pimpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\model\\usermodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +35,39 @@
       "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:utils\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\pages\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:pages\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\feature\\loginpagetests.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:feature\\loginpagetests.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\commons\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:commons\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\definitions\\loginpagetestsstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:definitions\\loginpagetestsstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\browserhook\\browserhooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:browserhook\\browserhooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\reqnroll.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:reqnroll.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\allureconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:allureconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\pages\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:pages\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDB44180-102A-40F9-A38D-799F9B25FCF3}|Playwrights_Web_Automation.csproj|c:\\users\\uzair\\playwright_with_reqnroll_and_page_object_models_in_dotnet_csharp\\playwrights_web_automation\\base\\basedriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,9 +85,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\uzair\\AppData\\Local\\Temp\\a83ebdff-448a-4fa6-8005-a36348680ef1_start-nunit-net8.0-dotnet-dotnet.zip.ef1\\tests\\Examples.Allure.NUnit.Test\\allureConfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj.Backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -78,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Playwrights_Web_Automation.csproj",
               "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj",
               "RelativeDocumentMoniker": "Playwrights_Web_Automation.csproj",
@@ -95,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Playwrights_Web_Automation.csproj.Backup.tmp",
               "DocumentMoniker": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj.Backup.tmp",
               "ToolTip": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Playwrights_Web_Automation.csproj.Backup.tmp",
@@ -105,129 +125,129 @@
               "IsPinned": true
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-01T01:22:02.444Z",
+              "Title": "PIMPageTestsStepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Definitions\\PIMPageTestsStepDefinitions.cs",
+              "RelativeDocumentMoniker": "Definitions\\PIMPageTestsStepDefinitions.cs",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Definitions\\PIMPageTestsStepDefinitions.cs",
+              "RelativeToolTip": "Definitions\\PIMPageTestsStepDefinitions.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAvwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T01:57:11.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PageObject.cs",
-              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\PageObject.cs",
-              "RelativeDocumentMoniker": "Utils\\PageObject.cs",
-              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\PageObject.cs",
-              "RelativeToolTip": "Utils\\PageObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:28:09.955Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LoginPage.cs",
-              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\LoginPage.cs",
-              "RelativeDocumentMoniker": "Pages\\LoginPage.cs",
-              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\LoginPage.cs",
-              "RelativeToolTip": "Pages\\LoginPage.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwCkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T20:25:30.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserModels.cs",
-              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Model\\UserModels.cs",
-              "RelativeDocumentMoniker": "Model\\UserModels.cs",
-              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Model\\UserModels.cs",
-              "RelativeToolTip": "Model\\UserModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T21:45:08.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginPageTestsStepDefinitions.cs",
-              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Definitions\\LoginPageTestsStepDefinitions.cs",
-              "RelativeDocumentMoniker": "Definitions\\LoginPageTestsStepDefinitions.cs",
-              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Definitions\\LoginPageTestsStepDefinitions.cs",
-              "RelativeToolTip": "Definitions\\LoginPageTestsStepDefinitions.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAewB8AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T20:06:06.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "reqnroll.json",
-              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\reqnroll.json",
-              "RelativeDocumentMoniker": "reqnroll.json",
-              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\reqnroll.json",
-              "RelativeToolTip": "reqnroll.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-26T20:09:18.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "config.cs",
-              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\config.cs",
-              "RelativeDocumentMoniker": "Utils\\config.cs",
-              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\config.cs",
-              "RelativeToolTip": "Utils\\config.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:15:49.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminPage.cs",
-              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\AdminPage.cs",
-              "RelativeDocumentMoniker": "Pages\\AdminPage.cs",
-              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\AdminPage.cs",
-              "RelativeToolTip": "Pages\\AdminPage.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:59:48.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "LoginPageTests.feature",
               "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Feature\\LoginPageTests.feature",
               "RelativeDocumentMoniker": "Feature\\LoginPageTests.feature",
               "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Feature\\LoginPageTests.feature",
               "RelativeToolTip": "Feature\\LoginPageTests.feature",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI9SURBVDhPddFNaJRXFMbx330nTr411aDvhLZGDSgK4ke7KBT8SFEo3ZTSZhAqhdIidNVdXYmCAcFVKbhy04UmCwVbuygUW2gDpWAX7UJpqlJQZiaJpo6JThInt4v0TWZEz\u002B4\u002B53n\u002B95x7g\u002BfVxbRbsB2b8FRwR91NR8qzTb4YY2gWMJp\u002BhM\u002BxHS3/d\u002BbxJ4YVy5cbIyuAkbQNZ/EZtCZ5c4vzkpBoTfKe1GuZ8wshnDVUqkOyDOBTHIMda7b6ZfCKHau3Otr/vp8OXhZW7johxreywxJgJO3BKeTW5ntUF2Zs7HzFG72vebsw6PHTJ6KYZdpx2rd9QcOOh7FmY\u002BfLfjxwyQ\u002BVn\u002B279q4H8/8am/rN/bnpLJzVHrOLm3ErW2EX3Htccv72BS0hp1KbVKlNulEdNzE31RxfertdGt6gBepx0T\u002Bzd92ojqvV55bdA139hncedyjdv6yhUwPgNgx0b/LV3mEHN7ypt3WddfmXFNrWy4Wcw\u002BkB5/aeaQTctfyNo\u002BkW0V9BSLZ09Xu4UDU2\u002BI0vx8/btnrAtu4B7419rCPXoVSrQI24QbFSXZpgqHwLX0fR3zN3dK/qEkLi9\u002Bk//Dp1XV97qh4XszBcUKxUVyaAkbQPV7Eb1uZ7TM8/lIRER0u7RwszmXNCiPsMVW42A\u002BBi2is4h3fQ1tRbqlkMKZa/y4RmAIwWVoleJx7Dhw2dMj5RLF9t0J4DyGq0cEiM3\u002BMerhBOKpYmnrW9GDBSeJW4E9cl9ZIPJp91gP8An260t87tLxkAAAAASUVORK5CYII=",
-              "WhenOpened": "2025-02-26T20:02:02.774Z"
+              "WhenOpened": "2025-02-26T20:02:02.774Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "AddEmployeeTests.feature",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Feature\\AddEmployeeTests.feature",
+              "RelativeDocumentMoniker": "Feature\\AddEmployeeTests.feature",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Feature\\AddEmployeeTests.feature",
+              "RelativeToolTip": "Feature\\AddEmployeeTests.feature",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAABVAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI9SURBVDhPddFNaJRXFMbx330nTr411aDvhLZGDSgK4ke7KBT8SFEo3ZTSZhAqhdIidNVdXYmCAcFVKbhy04UmCwVbuygUW2gDpWAX7UJpqlJQZiaJpo6JThInt4v0TWZEz\u002B4\u002B53n\u002B95x7g\u002BfVxbRbsB2b8FRwR91NR8qzTb4YY2gWMJp\u002BhM\u002BxHS3/d\u002BbxJ4YVy5cbIyuAkbQNZ/EZtCZ5c4vzkpBoTfKe1GuZ8wshnDVUqkOyDOBTHIMda7b6ZfCKHau3Otr/vp8OXhZW7johxreywxJgJO3BKeTW5ntUF2Zs7HzFG72vebsw6PHTJ6KYZdpx2rd9QcOOh7FmY\u002BfLfjxwyQ\u002BVn\u002B279q4H8/8am/rN/bnpLJzVHrOLm3ErW2EX3Htccv72BS0hp1KbVKlNulEdNzE31RxfertdGt6gBepx0T\u002Bzd92ojqvV55bdA139hncedyjdv6yhUwPgNgx0b/LV3mEHN7ypt3WddfmXFNrWy4Wcw\u002BkB5/aeaQTctfyNo\u002BkW0V9BSLZ09Xu4UDU2\u002BI0vx8/btnrAtu4B7419rCPXoVSrQI24QbFSXZpgqHwLX0fR3zN3dK/qEkLi9\u002Bk//Dp1XV97qh4XszBcUKxUVyaAkbQPV7Eb1uZ7TM8/lIRER0u7RwszmXNCiPsMVW42A\u002BBi2is4h3fQ1tRbqlkMKZa/y4RmAIwWVoleJx7Dhw2dMj5RLF9t0J4DyGq0cEiM3\u002BMerhBOKpYmnrW9GDBSeJW4E9cl9ZIPJp91gP8An260t87tLxkAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-03-01T01:55:58.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\Helpers.cs",
+              "RelativeDocumentMoniker": "Utils\\Helpers.cs",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\Helpers.cs",
+              "RelativeToolTip": "Utils\\Helpers.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAewBgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T23:39:47.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PIMPages.cs",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\PIMPages.cs",
+              "RelativeDocumentMoniker": "Pages\\PIMPages.cs",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\PIMPages.cs",
+              "RelativeToolTip": "Pages\\PIMPages.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAWwEkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T01:04:58.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserModels.cs",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Model\\UserModels.cs",
+              "RelativeDocumentMoniker": "Model\\UserModels.cs",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Model\\UserModels.cs",
+              "RelativeToolTip": "Model\\UserModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T21:45:08.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageObject.cs",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\PageObject.cs",
+              "RelativeDocumentMoniker": "Utils\\PageObject.cs",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\PageObject.cs",
+              "RelativeToolTip": "Utils\\PageObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:28:09.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "config.cs",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\config.cs",
+              "RelativeDocumentMoniker": "Utils\\config.cs",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Utils\\config.cs",
+              "RelativeToolTip": "Utils\\config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:15:49.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Common.cs",
               "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Commons\\Common.cs",
               "RelativeDocumentMoniker": "Commons\\Common.cs",
               "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Commons\\Common.cs",
               "RelativeToolTip": "Commons\\Common.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T19:48:08.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginPageTestsStepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Definitions\\LoginPageTestsStepDefinitions.cs",
+              "RelativeDocumentMoniker": "Definitions\\LoginPageTestsStepDefinitions.cs",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Definitions\\LoginPageTestsStepDefinitions.cs",
+              "RelativeToolTip": "Definitions\\LoginPageTestsStepDefinitions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T20:06:06.909Z"
             },
             {
               "$type": "Document",
@@ -237,13 +257,85 @@
               "RelativeDocumentMoniker": "BrowserHook\\BrowserHooks.cs",
               "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\BrowserHook\\BrowserHooks.cs",
               "RelativeToolTip": "BrowserHook\\BrowserHooks.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T20:43:55.785Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "reqnroll.json",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\reqnroll.json",
+              "RelativeDocumentMoniker": "reqnroll.json",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\reqnroll.json",
+              "RelativeToolTip": "reqnroll.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T20:09:18.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "allureConfig.json",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\allureConfig.json",
+              "RelativeDocumentMoniker": "allureConfig.json",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\allureConfig.json",
+              "RelativeToolTip": "allureConfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-08T03:06:11.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\LoginPage.cs",
+              "RelativeDocumentMoniker": "Pages\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\LoginPage.cs",
+              "RelativeToolTip": "Pages\\LoginPage.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvxEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T20:25:30.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAYTAAAAAAAAAAAwwBYTAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-26T23:32:58.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminPage.cs",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\AdminPage.cs",
+              "RelativeDocumentMoniker": "Pages\\AdminPage.cs",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Pages\\AdminPage.cs",
+              "RelativeToolTip": "Pages\\AdminPage.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAxwBgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:59:48.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-01T01:22:02.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "BaseDriver.cs",
               "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Base\\BaseDriver.cs",
               "RelativeDocumentMoniker": "Base\\BaseDriver.cs",
@@ -255,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Test Helpers.txt",
               "DocumentMoniker": "C:\\Users\\uzair\\Playwright_with_Reqnroll_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\Test Helpers.txt",
               "RelativeDocumentMoniker": "Test Helpers.txt",
@@ -267,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "config.json",
               "DocumentMoniker": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\config.json",
               "ToolTip": "D:\\Playwright_with_SpecFlow_and_Page_Object_Models_in_DotNET_CSharp\\Playwrights_Web_Automation\\config.json",
@@ -277,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "allureConfig.json",
               "DocumentMoniker": "C:\\Users\\uzair\\AppData\\Local\\Temp\\a83ebdff-448a-4fa6-8005-a36348680ef1_start-nunit-net8.0-dotnet-dotnet.zip.ef1\\tests\\Examples.Allure.NUnit.Test\\allureConfig.json",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\a83ebdff-448a-4fa6-8005-a36348680ef1_start-nunit-net8.0-dotnet-dotnet.zip.ef1\\tests\\Examples.Allure.NUnit.Test\\allureConfig.json",
@@ -288,16 +380,8 @@
               "EditorCaption": " [Read Only]"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAAcTAAAAAAAAAADgvxYTAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-02-26T23:32:58.808Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

@@ -1,14 +1,9 @@
 ﻿using Allure.Commons;
 using Microsoft.Playwright;
 using Newtonsoft.Json;
-using Playwrights_Web_Automation.Utils;
 using Playwrights_Web_Automation.Base;
+using Playwrights_Web_Automation.Utils;
 using Reqnroll;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Playwrights_Web_Automation.BrowserHook
 {

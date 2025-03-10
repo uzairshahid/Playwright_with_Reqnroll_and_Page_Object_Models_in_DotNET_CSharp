@@ -20,16 +20,19 @@ namespace Playwrights_Web_Automation.Feature
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Reqnroll", "2.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Add Employee Test")]
+    [NUnit.Framework.DescriptionAttribute("Add Employee Functionality")]
     [NUnit.Framework.FixtureLifeCycleAttribute(NUnit.Framework.LifeCycle.InstancePerTestCase)]
-    public partial class AddEmployeeTestFeature
+    [NUnit.Framework.CategoryAttribute("AddEmployeeFeature")]
+    public partial class AddEmployeeFunctionalityFeature
     {
         
         private global::Reqnroll.ITestRunner testRunner;
         
-        private static string[] featureTags = ((string[])(null));
+        private static string[] featureTags = new string[] {
+                "AddEmployeeFeature"};
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Feature", "Add Employee Test", null, global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Feature", "Add Employee Functionality", "  As an Admin, I want to add an employee so that I can manage employee details in" +
+                " the system.", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
         
 #line 1 "AddEmployeeTests.feature"
 #line hidden
@@ -82,43 +85,34 @@ namespace Playwrights_Web_Automation.Feature
             await testRunner.CollectScenarioErrorsAsync();
         }
         
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("To Verify, Admin should be able to Create Employe by login and then go to create " +
-            "Employe Page")]
-        [NUnit.Framework.CategoryAttribute("AddEmployeeFeature")]
-        [NUnit.Framework.TestCaseAttribute("Admin", "admin123", "/auth/login", "Uz", "Ai", "R", "15", "December", "2023", "Qatari", "Married", "5", "August", "1991", "Male", null)]
-        public async System.Threading.Tasks.Task ToVerifyAdminShouldBeAbleToCreateEmployeByLoginAndThenGoToCreateEmployePage(
-                    string username, 
-                    string password, 
-                    string pageNavigationRoute, 
-                    string firstName, 
-                    string middleName, 
-                    string lastName, 
-                    string driverLicenseExpiryDay, 
-                    string driverLicenseExpiryMonth, 
-                    string driverLicenseExpiryYear, 
-                    string nationality, 
-                    string maritalStatus, 
-                    string dateOfBirthDay, 
-                    string dateOfBirthMonth, 
-                    string dateOfBirthYear, 
-                    string gender, 
-                    string[] exampleTags)
+        public virtual async System.Threading.Tasks.Task FeatureBackgroundAsync()
         {
-            string[] @__tags = new string[] {
-                    "AddEmployeeFeature"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+#line 5
+#line hidden
+#line 6
+  await testRunner.GivenAsync("Go to Admin Login Page with URL \"/auth/login\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+#line hidden
+#line 7
+  await testRunner.WhenAsync("Enter Correct UserName \"Admin\" and Password \"admin123\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
+#line hidden
+#line 8
+  await testRunner.ThenAsync("Click on the Login Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+#line hidden
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("To Verify, Admin should be able to Create Employee by login and then go to create" +
+            " Employee Page")]
+        [NUnit.Framework.TestCaseAttribute("Uz", "Ai", "R", "122323", "12345", "15", "December", "2022", "Qatari", "Married", "5", "August", "1991", "Male", null)]
+        public async System.Threading.Tasks.Task ToVerifyAdminShouldBeAbleToCreateEmployeeByLoginAndThenGoToCreateEmployeePage(string firstName, string middleName, string lastName, string employeeId, string driverLicenseNumber, string driverLicenseExpiryDay, string driverLicenseExpiryMonth, string driverLicenseExpiryYear, string nationality, string maritalStatus, string dateOfBirthDay, string dateOfBirthMonth, string dateOfBirthYear, string gender, string[] exampleTags)
+        {
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            argumentsOfScenario.Add("username", username);
-            argumentsOfScenario.Add("password", password);
-            argumentsOfScenario.Add("PageNavigationRoute", pageNavigationRoute);
             argumentsOfScenario.Add("FirstName", firstName);
             argumentsOfScenario.Add("MiddleName", middleName);
             argumentsOfScenario.Add("LastName", lastName);
+            argumentsOfScenario.Add("EmployeeId", employeeId);
+            argumentsOfScenario.Add("DriverLicenseNumber", driverLicenseNumber);
             argumentsOfScenario.Add("DriverLicenseExpiryDay", driverLicenseExpiryDay);
             argumentsOfScenario.Add("DriverLicenseExpiryMonth", driverLicenseExpiryMonth);
             argumentsOfScenario.Add("DriverLicenseExpiryYear", driverLicenseExpiryYear);
@@ -128,9 +122,9 @@ namespace Playwrights_Web_Automation.Feature
             argumentsOfScenario.Add("DateOfBirthMonth", dateOfBirthMonth);
             argumentsOfScenario.Add("DateOfBirthYear", dateOfBirthYear);
             argumentsOfScenario.Add("Gender", gender);
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("To Verify, Admin should be able to Create Employe by login and then go to create " +
-                    "Employe Page", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 13
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("To Verify, Admin should be able to Create Employee by login and then go to create" +
+                    " Employee Page", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 10
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -140,38 +134,32 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
+#line 5
+await this.FeatureBackgroundAsync();
+#line hidden
+#line 11
+  await testRunner.GivenAsync("Then go to PIM Page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+#line hidden
+#line 12
+  await testRunner.WhenAsync("Click on Add Employee Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
+#line hidden
+#line 13
+  await testRunner.AndAsync(string.Format("Enter Correct First Name \"{0}\", Middle Name \"{1}\", Last Name \"{2}\", Employee ID \"" +
+                            "{3}\"", firstName, middleName, lastName, employeeId), ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+#line hidden
 #line 14
- await testRunner.GivenAsync(string.Format("Go to Admin Login Page with URL \"{0}\"", pageNavigationRoute), ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+  await testRunner.AndAsync("Click on the Save Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
 #line 15
- await testRunner.WhenAsync(string.Format("Enter Correct UserName \"{0}\" and Password \"{1}\"", username, password), ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
+  await testRunner.ThenAsync("Click on the Personal Details Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
 #line 16
- await testRunner.ThenAsync("Click on the Login Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+  await testRunner.AndAsync(string.Format("Enter Driver\'s License Number \"{0}\", License Expiry Date \"{1}\" \"{2}\" \"{3}\", Natio" +
+                            "nality \"{4}\", Marital Status \"{5}\", Date of Birth \"{6}\" \"{7}\" \"{8}\", Gender \"{9}" +
+                            "\"", driverLicenseNumber, driverLicenseExpiryDay, driverLicenseExpiryMonth, driverLicenseExpiryYear, nationality, maritalStatus, dateOfBirthDay, dateOfBirthMonth, dateOfBirthYear, gender), ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
 #line 17
- await testRunner.AndAsync("Then go to PIM Page", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
-#line hidden
-#line 18
- await testRunner.AndAsync("Click on Add Employe Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
-#line hidden
-#line 19
- await testRunner.AndAsync(string.Format("Enter Correct First Name \"{0}\", Middle Name\"{1}\", Last Name \"{2}\", Employee ID \"<" +
-                            "EmployeeId>\"", firstName, middleName, lastName), ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
-#line hidden
-#line 21
- await testRunner.ThenAsync("Click on the Save Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
-#line hidden
-#line 22
- await testRunner.ThenAsync("Click on the Personal Details Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
-#line hidden
-#line 23
- await testRunner.ThenAsync(string.Format("Enter Driver\'s License Number \"<DriverLicenseNumber>\", License Expiry Date \"{0}\" " +
-                            "\"{1}\" \"{2}\", Nationality \"{3}\",Marital Status \"{4}\", Date of Birth \"{5}\" \"{6}\" \"" +
-                            "{7}\", Gender \"{8}\"", driverLicenseExpiryDay, driverLicenseExpiryMonth, driverLicenseExpiryYear, nationality, maritalStatus, dateOfBirthDay, dateOfBirthMonth, dateOfBirthYear, gender), ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
-#line hidden
-#line 25
- await testRunner.ThenAsync("Click on the Save Button Add Details", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+  await testRunner.ThenAsync("Click on the Save Button Add Details", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
             await this.ScenarioCleanupAsync();

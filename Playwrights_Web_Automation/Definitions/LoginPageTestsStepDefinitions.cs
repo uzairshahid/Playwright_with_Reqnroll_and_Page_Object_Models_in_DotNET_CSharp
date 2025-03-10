@@ -10,15 +10,20 @@ namespace Playwrights_Web_Automation.Definitions
 
 
     [Binding]
-    public sealed class LoginPageTestsStepDefinitions(ScenarioContext scenarioContext)
+    public sealed class LoginPageTestsStepDefinitions
     {
-        private IPage _page = BrowserHook.BrowserHooks.Page!;
-     
-        private Config? _config = BrowserHooks.Config!;
+        private readonly IPage _page;
+        private readonly Config _config;
         private LoginPage? _loginPage;
-       
 
-        public ScenarioContext ScenarioContext { get; } = scenarioContext;
+        public LoginPageTestsStepDefinitions(ScenarioContext scenarioContext)
+        {
+            // Retrieve the Page instance from ScenarioContext
+            _page = scenarioContext["Page"] as IPage ?? throw new NullReferenceException("Page is not initialized in ScenarioContext.");
+
+            // Retrieve the Config instance from ScenarioContext (if stored)
+            _config = scenarioContext["Config"] as Config ?? throw new NullReferenceException("Config is not initialized in ScenarioContext.");
+        }
 
         [Given("Go to Admin Login Page with URL {string}")]
         public async Task GivenGoToAdminLoginPageWithURL(string pageNavigationRoute)

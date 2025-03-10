@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Playwrights_Web_Automation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ec4e1ec425320300baf961a4068d8f9223b7fac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab6798abe1832e2fcbfaf4184f9830bb22ab4108")]
 [assembly: System.Reflection.AssemblyProductAttribute("Playwrights_Web_Automation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Playwrights_Web_Automation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

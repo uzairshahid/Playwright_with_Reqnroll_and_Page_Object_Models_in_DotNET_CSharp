@@ -1,38 +1,23 @@
-Feature: Add Employee Test
-#
-#Background: 
-#	Given Go to Admin Login Page with URL "<PageNavigationRoute>"
-#	When Enter Correct UserName "<username>" and Password "<password>"
-#	Then Click on the Login Button
-
-
-
-
-
 @AddEmployeeFeature
-Scenario: To Verify, Admin should be able to Create Employe by login and then go to create Employe Page
-	Given Go to Admin Login Page with URL "<PageNavigationRoute>"
-	When Enter Correct UserName "<username>" and Password "<password>"
-	Then Click on the Login Button
-	And Then go to PIM Page
-	And Click on Add Employe Button
-	And Enter Correct First Name "<FirstName>", Middle Name"<MiddleName>", Last Name "<LastName>", Employee ID "<EmployeeId>"
-	#And Make Create Login Details As Disabled
-	Then Click on the Save Button
-	Then Click on the Personal Details Button
-	Then Enter Driver's License Number "<DriverLicenseNumber>", License Expiry Date "<DriverLicenseExpiryDay>" "<DriverLicenseExpiryMonth>" "<DriverLicenseExpiryYear>", Nationality "<Nationality>",Marital Status "<MaritalStatus>", Date of Birth "<DateOfBirthDay>" "<DateOfBirthMonth>" "<DateOfBirthYear>", Gender "<Gender>"
-	#And Enter Driver's License Number "<DriverLicenseNumber>"
-	Then Click on the Save Button Add Details
+Feature: Add Employee Functionality
+  As an Admin, I want to add an employee so that I can manage employee details in the system.
 
+Background:
+  Given Go to Admin Login Page with URL "/auth/login"
+  When Enter Correct UserName "Admin" and Password "admin123"
+  Then Click on the Login Button
 
-	
-
-
-
-
-	Examples:
-      | username | password | PageNavigationRoute | FirstName | MiddleName | LastName | DriverLicenseExpiryDay | DriverLicenseExpiryMonth | DriverLicenseExpiryYear | Nationality | MaritalStatus | DateOfBirthDay | DateOfBirthMonth | DateOfBirthYear | Gender |
-      | Admin    | admin123 | /auth/login         | Uz		  | Ai         | R        | 15                     | December                 | 2023                    | Qatari      | Married       | 5              | August           | 1991            | Male   |
+Scenario: To Verify, Admin should be able to Create Employee by login and then go to create Employee Page
+  Given Then go to PIM Page
+  When Click on Add Employee Button
+  And Enter Correct First Name "<FirstName>", Middle Name "<MiddleName>", Last Name "<LastName>", Employee ID "<EmployeeId>"
+  And Click on the Save Button
+  Then Click on the Personal Details Button
+  And Enter Driver's License Number "<DriverLicenseNumber>", License Expiry Date "<DriverLicenseExpiryDay>" "<DriverLicenseExpiryMonth>" "<DriverLicenseExpiryYear>", Nationality "<Nationality>", Marital Status "<MaritalStatus>", Date of Birth "<DateOfBirthDay>" "<DateOfBirthMonth>" "<DateOfBirthYear>", Gender "<Gender>"
+  Then Click on the Save Button Add Details
 
 
 
+  Examples:
+    | FirstName | MiddleName | LastName | EmployeeId | DriverLicenseNumber | DriverLicenseExpiryDay | DriverLicenseExpiryMonth | DriverLicenseExpiryYear | Nationality | MaritalStatus | DateOfBirthDay | DateOfBirthMonth | DateOfBirthYear | Gender |
+    | Uz        | Ai         | R        | 122323     |       12345         |         15             | December                 | 2022                    | Qatari      | Married       | 5              | August           | 1991            | Male   |

@@ -27,11 +27,15 @@ namespace Playwrights_Web_Automation.BrowserHook
         public static async Task BeforeAll()
         {
             // Initialize shared resources here (if needed)
+            ExtentReportHelper.GetExtentReport();
         }
 
         [BeforeScenario]
         public async Task BeforeScenario()
         {
+            var testName = _scenarioContext.ScenarioInfo.Title;
+            ExtentReportHelper.CreateTest(testName);
+
             // Load config.json
             string projectRoot = Path.Combine(Directory.GetCurrentDirectory(), "../../../");
             string filePath = Path.Combine(projectRoot, "config.json");
@@ -75,10 +79,25 @@ namespace Playwrights_Web_Automation.BrowserHook
         public async Task AfterScenario()
         {
             // Take a screenshot on failure
+            //if (_scenarioContext.TestError != null && _page != null)
+            //{
+            //    var screenshotBytes = await _page.ScreenshotAsync();
+            //    AllureLifecycle.Instance.AddAttachment("Screenshot on Failure", "image/png", screenshotBytes);
+            //}
+
             if (_scenarioContext.TestError != null && _page != null)
             {
                 var screenshotBytes = await _page.ScreenshotAsync();
-                AllureLifecycle.Instance.AddAttachment("Screenshot on Failure", "image/png", screenshotBytes);
+                var screenshotPath = Path.Combine(Directory.GetCurrentDirectory(), "../../../TestResults/screenshot.png");
+                File.WriteAllBytes(screenshotPath, screenshotBytes);
+
+                // Attach screenshot to ExtentReport
+                ExtentReportHelper.LogFail($"Test failed: {_scenarioContext.TestError.Message}");
+                ExtentReportHelper.LogFail("Screenshot captured: <a href='" + screenshotPath + "'><img src='" + screenshotPath + "' height='100' width='100'/></a>");
+            }
+            else
+            {
+                ExtentReportHelper.LogPass("Test passed successfully.");
             }
 
             // Clean up page and context
@@ -101,6 +120,7 @@ namespace Playwrights_Web_Automation.BrowserHook
             {
                 await _browser.CloseAsync();
                 _browser = null; // Reset the browser instance
+                ExtentReportHelper.FlushReport();
             }
         }
     }

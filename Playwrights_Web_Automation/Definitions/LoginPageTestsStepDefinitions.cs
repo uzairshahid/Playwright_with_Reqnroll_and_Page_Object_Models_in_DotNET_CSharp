@@ -4,6 +4,7 @@ using Playwrights_Web_Automation.Commons;
 using Playwrights_Web_Automation.Pages;
 using Playwrights_Web_Automation.Utils;
 using Reqnroll;
+using System.Security.Policy;
 
 namespace Playwrights_Web_Automation.Definitions
 {
@@ -30,12 +31,16 @@ namespace Playwrights_Web_Automation.Definitions
         {
             await _page.GotoAsync(_config!.url! + pageNavigationRoute);
             _loginPage = new LoginPage(_page);
+            ExtentReportHelper.LogInfo($"Navigated to URL: {_config!.url! + pageNavigationRoute}");
+
         }
 
         [When("Enter Correct UserName {string} and Password {string}")]
         public async Task WhenEnterCorrectUserNameAndPassword(string p0, string p1)
         {
             await _loginPage.Login(p0, p1);
+            ExtentReportHelper.LogInfo($"Entered username: {p0} and password: {p1}");
+
         }
 
 
@@ -43,6 +48,8 @@ namespace Playwrights_Web_Automation.Definitions
         public async Task ThenClickOnTheLoginButton()
         {
             await _loginPage.ClickLoginButton();
+            ExtentReportHelper.LogPass("Login button clicked successfully.");
+
         }
 
     }

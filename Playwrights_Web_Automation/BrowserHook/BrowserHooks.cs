@@ -48,16 +48,6 @@ namespace Playwrights_Web_Automation.BrowserHook
         [AfterScenario]
         public async Task AfterScenario(ScenarioContext context)
         {
-            if (context.TestError != null)
-            {
-                byte[] screenshot = Array.Empty<byte>();
-                if (Page != null)
-                {
-                    screenshot = await Page.ScreenshotAsync();
-                }
-                AllureLifecycle.Instance.AddAttachment($"Failed Scenario: {context.ScenarioInfo.Title}",
-                    "application/png", screenshot);
-            }
 
             if (Page != null)
             {

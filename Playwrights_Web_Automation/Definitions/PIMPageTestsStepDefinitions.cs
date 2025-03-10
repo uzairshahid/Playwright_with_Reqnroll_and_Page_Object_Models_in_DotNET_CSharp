@@ -1,11 +1,8 @@
 ﻿using Microsoft.Playwright;
 using Playwrights_Web_Automation.BrowserHook;
-using Playwrights_Web_Automation.Commons;
 using Playwrights_Web_Automation.Pages;
 using Playwrights_Web_Automation.Utils;
 using Reqnroll;
-using System.Threading.Tasks;
-using NUnit.Framework;
 
 namespace Playwrights_Web_Automation.Definitions
 {
@@ -54,18 +51,6 @@ namespace Playwrights_Web_Automation.Definitions
         [Then("Click on the Personal Details Button")]
         public async Task ThenClickOnThePersonalDetailsButton() => await _pimPages.ClickSavePersonalDetailsButton();
 
-        //[Then("Enter Driver's License Number {string}, License Expiry Date {string}, Nationality {string},Marital Status {string}, Date of Birth {string}, Gender {string},Blood Type {string}")]
-        //public async Task ThenEnterDriversLicenseNumberLicenseExpiryDateNationalityMaritalStatusDateOfBirthGenderBloodType(string driverLicenseNumber, string p1, string nationality, string maritalStatus, string dateOfBirth, string gender, string bloodType)
-        //{
-        //    throw new PendingStepException();
-        //}
-
-
-        //[Then("Enter Driver's License Number {string}, License Expiry Date {string}, Nationality {string},Marital Status {string}, Date of Birth {string}, Gender {string}")]
-        //public async Task ThenEnterDriversLicenseNumberLicenseExpiryDateNationalityMaritalStatusDateOfBirthGenderBloodType(string driverLicenseNumber)
-        //{
-        //    await _pimPages.UpdateNewEmployeeDetails(driverLicenseNumber = randomNumber, "11","December","1988","Welsh","Single", "8", "August", "2000", "Female");
-        //}
 
 
         [Then("Enter Driver's License Number {string}, License Expiry Date {string} {string} {string}, Nationality {string},Marital Status {string}, Date of Birth {string} {string} {string}, Gender {string}")]

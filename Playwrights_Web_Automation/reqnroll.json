@@ -2,6 +2,9 @@
   "reqnroll": {
     "runtime": {
       "missingOrPendingStepsOutcome": "Ignore"
-    }
+    },
+    "stepAssemblies": [
+      { "assembly": "Allure.SpecFlowPlugin" }
+    ]
   }
 }

@@ -1,56 +1,58 @@
 ﻿using Microsoft.Playwright;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Playwrights_Web_Automation.Base
 {
-   public class BaseDriver
+    public class BaseDriver
     {
         private readonly bool _isHeadless;
         private readonly string _browserType;
         private readonly Task<IBrowser> _browser;
-        public IBrowser Browser => _browser.Result;
-
 
         public BaseDriver(string browserType, bool isHeadless = false)
         {
-            this._browserType = browserType;
-            this._isHeadless = isHeadless;
-            _browser = Task.Run(InitializePlaywright);
+            _browserType = browserType;
+            _isHeadless = isHeadless;
+            _browser = InitializePlaywright(); // Directly call the async method
+        }
+
+        public async Task<IBrowser> GetBrowserAsync()
+        {
+            return await _browser; // Await the task to get the browser instance
         }
 
         private async Task<IBrowser> InitializePlaywright()
         {
             var playwright = await Playwright.CreateAsync();
-            IBrowser? taskIBrowser = null;
+            IBrowser browser;
 
-            switch (this._browserType)
+            switch (_browserType.ToLower()) // Use ToLower() for case-insensitive comparison
             {
                 case "chromium":
-                    taskIBrowser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
+                    browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
                     {
                         Args = new[] { "--start-maximized" },
-                        Headless = this._isHeadless
+                        Headless = _isHeadless
                     });
                     break;
                 case "firefox":
-                    taskIBrowser = await playwright.Firefox.LaunchAsync(new BrowserTypeLaunchOptions
+                    browser = await playwright.Firefox.LaunchAsync(new BrowserTypeLaunchOptions
                     {
                         Args = new[] { "--kiosk" },
-                        Headless = this._isHeadless
+                        Headless = _isHeadless
                     });
                     break;
                 case "webkit":
-                    taskIBrowser = await playwright.Webkit.LaunchAsync(new BrowserTypeLaunchOptions
+                    browser = await playwright.Webkit.LaunchAsync(new BrowserTypeLaunchOptions
                     {
-                        Headless = this._isHeadless
+                        Headless = _isHeadless
                     });
                     break;
+                default:
+                    throw new ArgumentException($"Unsupported browser type: {_browserType}");
             }
-            return taskIBrowser!;
+
+            return browser;
         }
     }
 }

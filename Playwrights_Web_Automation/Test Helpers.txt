@@ -2,6 +2,9 @@
 for headless mode dotnet test
 for run in debugmode with inspector record and browser PWDEBUG=1 dotnet test
 for run tests by cucumber tags dotnet test --filter "Category=TagName"
+for run open report by cmd cd TestResults && Start ExtentReport.html
+for run open report by power shell  cd .\TestResults; Start-Process ExtentReport.html
+for run test and open report with one cmd dotnet test --filter "Category=AddEmployeeFeature" && cd TestResults && Start ExtentReport.html
 
 
 

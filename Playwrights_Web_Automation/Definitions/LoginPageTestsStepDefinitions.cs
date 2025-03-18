@@ -40,6 +40,7 @@ namespace Playwrights_Web_Automation.Definitions
         {
             await _loginPage.Login(p0, p1);
             ExtentReportHelper.LogInfo($"Entered username: {p0} and password: {p1}");
+            
 
         }
 

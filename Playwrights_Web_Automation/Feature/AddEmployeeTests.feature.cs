@@ -101,10 +101,10 @@ namespace Playwrights_Web_Automation.Feature
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("To Verify, Admin should be able to Create Employee by login and then go to create" +
-            " Employee Page")]
+        [NUnit.Framework.DescriptionAttribute("To Verify, Admin should be able to Create Employee and Add Employee Personal Deta" +
+            "il After Login")]
         [NUnit.Framework.TestCaseAttribute("Uz", "Ai", "R", "122323", "12345", "15", "December", "2022", "Qatari", "Married", "5", "August", "1991", "Male", null)]
-        public async System.Threading.Tasks.Task ToVerifyAdminShouldBeAbleToCreateEmployeeByLoginAndThenGoToCreateEmployeePage(string firstName, string middleName, string lastName, string employeeId, string driverLicenseNumber, string driverLicenseExpiryDay, string driverLicenseExpiryMonth, string driverLicenseExpiryYear, string nationality, string maritalStatus, string dateOfBirthDay, string dateOfBirthMonth, string dateOfBirthYear, string gender, string[] exampleTags)
+        public async System.Threading.Tasks.Task ToVerifyAdminShouldBeAbleToCreateEmployeeAndAddEmployeePersonalDetailAfterLogin(string firstName, string middleName, string lastName, string employeeId, string driverLicenseNumber, string driverLicenseExpiryDay, string driverLicenseExpiryMonth, string driverLicenseExpiryYear, string nationality, string maritalStatus, string dateOfBirthDay, string dateOfBirthMonth, string dateOfBirthYear, string gender, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
@@ -122,8 +122,8 @@ namespace Playwrights_Web_Automation.Feature
             argumentsOfScenario.Add("DateOfBirthMonth", dateOfBirthMonth);
             argumentsOfScenario.Add("DateOfBirthYear", dateOfBirthYear);
             argumentsOfScenario.Add("Gender", gender);
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("To Verify, Admin should be able to Create Employee by login and then go to create" +
-                    " Employee Page", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("To Verify, Admin should be able to Create Employee and Add Employee Personal Deta" +
+                    "il After Login", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 10
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -151,14 +151,17 @@ await this.FeatureBackgroundAsync();
   await testRunner.AndAsync("Click on the Save Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
 #line 15
-  await testRunner.ThenAsync("Click on the Personal Details Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+  await testRunner.AndAsync("Verify, Is User Created Sucessfully", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
 #line 16
+  await testRunner.ThenAsync("Click on the Personal Details Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+#line hidden
+#line 17
   await testRunner.AndAsync(string.Format("Enter Driver\'s License Number \"{0}\", License Expiry Date \"{1}\" \"{2}\" \"{3}\", Natio" +
                             "nality \"{4}\", Marital Status \"{5}\", Date of Birth \"{6}\" \"{7}\" \"{8}\", Gender \"{9}" +
                             "\"", driverLicenseNumber, driverLicenseExpiryDay, driverLicenseExpiryMonth, driverLicenseExpiryYear, nationality, maritalStatus, dateOfBirthDay, dateOfBirthMonth, dateOfBirthYear, gender), ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
-#line 17
+#line 18
   await testRunner.ThenAsync("Click on the Save Button Add Details", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }

@@ -7,11 +7,12 @@ Background:
   When Enter Correct UserName "Admin" and Password "admin123"
   Then Click on the Login Button
 
-Scenario: To Verify, Admin should be able to Create Employee by login and then go to create Employee Page
+Scenario: To Verify, Admin should be able to Create Employee and Add Employee Personal Detail After Login
   Given Then go to PIM Page
   When Click on Add Employee Button
   And Enter Correct First Name "<FirstName>", Middle Name "<MiddleName>", Last Name "<LastName>", Employee ID "<EmployeeId>"
   And Click on the Save Button
+  And Verify, Is User Created Sucessfully
   Then Click on the Personal Details Button
   And Enter Driver's License Number "<DriverLicenseNumber>", License Expiry Date "<DriverLicenseExpiryDay>" "<DriverLicenseExpiryMonth>" "<DriverLicenseExpiryYear>", Nationality "<Nationality>", Marital Status "<MaritalStatus>", Date of Birth "<DateOfBirthDay>" "<DateOfBirthMonth>" "<DateOfBirthYear>", Gender "<Gender>"
   Then Click on the Save Button Add Details
